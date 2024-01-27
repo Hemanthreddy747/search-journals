@@ -1,15 +1,11 @@
 /* ----------global css------- */
-* {
-  box-sizing: border-box;
-  /* border:1px solid grey; */
-}
+
 /* --------local css---------- */
 
 /* --------navbar start------- */
-/* body {
-      padding-top: 70px; 
-    } */
-
+body{
+   background-color: rgba(220, 220, 220, 0.9);
+}
 .navbar {
   background-color: #3498db;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -46,13 +42,14 @@
   transform: translateY(-50%);
 }
 
-#booking {
+/* #booking {
   position: relative;
   font-family: "PT Sans", sans-serif;
   background-image: url("../img/background.jpg");
   background-size: cover;
   background-position: center;
-}
+  background-repeat: repeat-y;
+} 
 
 #booking::before {
   content: "";
@@ -63,7 +60,7 @@
   left: 0;
 
   background-color: rgba(220, 220, 220, 0.8);
-}
+} */
 .booking-form {
   background: rgba(0, 0, 0, 0.6);
   padding: 50px;
@@ -221,7 +218,7 @@
 
 /* =----------journalist styles------- */
 
-.main-container {
+/* .main-container {
   position: relative;
   background-image: url("../img/background2.jpg");
   background-size: cover;
@@ -238,10 +235,12 @@
   left: 0;
 
   background-color: rgba(220, 220, 220, 0.9);
-}
+} */
 .table-container {
   display: flex;
   justify-content: center;
+  width:70%;
+  margin-inline: auto;;
 }
 
 #example {
