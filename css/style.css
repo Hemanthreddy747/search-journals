@@ -3,8 +3,8 @@
 /* --------local css---------- */
 
 /* --------navbar start------- */
-body{
-   background-color: rgba(220, 220, 220, 0.9);
+.section, body{
+   background-color: rgba(220, 220, 220, 0.9) !important;
 }
 .navbar {
   background-color: #3498db;
