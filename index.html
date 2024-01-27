@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Search journals</title>
+
+    <!-- Google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans:400"
+      rel="stylesheet"
+    />
+    <!-- Custom stlylesheet -->
+    <script src="javascript.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Modern Bootstrap Navbar</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-topz">
+      <a class="navbar-brand" href="#">
+        <img
+          src="./img/Journalopedia Logo.png"
+          width="15%"
+          class="d-inline-block align-bottom"
+          alt="Logo"
+        />
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Back</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="booking" class="section">
+      <div class="section-center">
+        <div class="container">
+          <div class="row">
+            <div class="booking-form">
+              <form>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <span class="form-label">Source Title</span>
+                      <input
+                        class="form-control"
+                        type="text"
+                        placeholder="Enter Source Title"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <span class="form-label">Technology Area</span>
+                      <input
+                        class="form-control"
+                        type="text"
+                        placeholder="Enter Technology Area"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <span class="form-label">Stream</span>
+                      <select class="form-control">
+                        <option>ALL</option>
+                        <option>2</option>
+                        <option>3</option>
+                      </select>
+                      <span class="select-arrow"></span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <span class="form-label">Journal Type</span>
+                      <select class="form-control">
+                        <option>ALL</option>
+                        <option>1</option>
+                        <option>2</option>
+                      </select>
+                      <span class="select-arrow"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-9">
+                    <div class="form-group">
+                      <span class="form-label">Database</span>
+                      <select class="form-control">
+                        <option disabled selected>Select Database</option>
+                        <option>1</option>
+                        <option>2</option>
+                      </select>
+                      <span class="select-arrow"></span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <span class="form-label"></span>
+                      <select class="form-control">
+                        <option disabled selected>--Select--</option>
+                        <option>1</option>
+                        <option>2</option>
+                      </select>
+                      <span class="select-arrow"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <span class="form-label">Impact Factor From</span>
+                      <input
+                        class="form-control"
+                        type="text"
+                        required
+                        placeholder="Enter Impact Factor From"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <span class="form-label">Impact Factor To</span>
+                      <input
+                        class="form-control"
+                        type="text"
+                        required
+                        placeholder="Enter Impact Factor To"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <span class="form-label">SNIP From</span>
+                      <input
+                        class="form-control"
+                        type="text"
+                        placeholder="Enter SNIP From"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <span class="form-label"></span>
+                      <input
+                        class="form-control"
+                        type="text"
+                        placeholder="Enter SNIP To"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <span class="form-label">Publisher Name</span>
+                      <input
+                        class="form-control"
+                        type="text"
+                        placeholder="Enter Piblisher Name"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <span class="form-label"></span>
+                    
+                      <div class="col-md-12">
+                        <button
+                          type="reset"
+                          class="btn btn-secondary form-control"
+                        >
+                          Clear
+                        </button>
+                      </div>
+                      <span class="select-arrow"></span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="form-btn">
+                      <button class="submit-btn" onclick="redirectToNextPage()">
+                        SEARCH
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
